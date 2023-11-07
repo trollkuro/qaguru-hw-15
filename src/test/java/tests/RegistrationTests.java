@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 import utils.FakeDataSetter;
 
-import static com.codeborne.selenide.logevents.SelenideLogger.step;
+import static io.qameta.allure.Allure.step;
 
 @Tag("user_creation")
 public class RegistrationTests extends TestBase {
